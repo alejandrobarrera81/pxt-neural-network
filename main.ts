@@ -5,19 +5,33 @@ namespace neuralNetwork {
     let X1 = 0;
     let w = [-1, 1, 1];  // Pesos iniciales por defecto
 
-    //% block="configura neurona número %neuronNum con pesos %weight0 %weight1 %weight2"
-    //% weight=100 color=#0fbc11
-    export function configuraNeurona(neuronNum: number, weight0: number, weight1: number, weight2: number): void {
+    //% block="configura neurona número %neuronNum"
+    //% weight=200 color=#ff0000
+    export function configuraNeurona(neuronNum: number): void {
         basic.showNumber(neuronNum);
-        w = [weight0, weight1, weight2];
         led.setBrightness(255);
         net = 0;
         X1 = 0;
         X2 = 0;
+        switch (neuronNum) {
+            case 1:
+                w = [-1, -1, 1];
+                break;
+            case 2:
+                w = [-1, 1, -1];
+                break;
+            case 3:
+                w = [-1, 1, 1];
+                break;
+        
+            default:
+                w = [0, 0, 0];
+                break;
+        }
     }
 
     //% block="ejecutar lógica de neurona"
-    //% weight=90 color=#0fbc11
+    //% weight=90 color=#ff0000
     export function ejecutarLogicaNeurona(): void {
         X1 = pins.digitalReadPin(DigitalPin.P0);
         X2 = pins.digitalReadPin(DigitalPin.P1);
