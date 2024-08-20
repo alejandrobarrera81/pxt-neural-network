@@ -1,0 +1,24 @@
+{
+    "en": {
+        "name": "SimpleMaths",
+        "description": "Mathematical operations extension",
+        "multiply": "multiply $a by $b",
+        "divide": "divide $a by $b",
+        "add": "add $a to $b",
+        "subtract": "subtract $b from $a",
+        "square": "square of $a",
+        "remainder": "remainder of $a divided by $b",
+        "countTo": "count from 1 to $n"
+    },
+    "es-ES": {
+        "name": "SimpleMaths",
+        "description": "Extensión de operaciones matemáticas",
+        "multiply": "multiplica $a por $b",
+        "divide": "divide $a por $b",
+        "add": "suma $a a $b",
+        "subtract": "resta $b de $a",
+        "square": "cuadrado de $a",
+        "remainder": "resto de $a dividido por $b",
+        "countTo": "contar del 1 al $n"
+    }
+}

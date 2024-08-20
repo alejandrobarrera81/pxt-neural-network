@@ -1,0 +1,10 @@
+{
+    "Multiplicar|block": "Multiplicar",
+    "Multiplicar.multiply|block": "multiply $a by $b",
+    "Multiplicar.divide|block": "divide $a by $b",
+    "Multiplicar.add|block": "add $a to $b",
+    "Multiplicar.subtract|block": "subtract $b from $a",
+    "Multiplicar.square|block": "square of $a",
+    "Multiplicar.remainder|block": "remainder of $a divided by $b",
+    "Multiplicar.countTo|block": "count from 1 to $n"
+}

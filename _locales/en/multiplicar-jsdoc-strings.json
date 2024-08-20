@@ -1,0 +1,10 @@
+{
+    "Multiplicar": "Mathematical operations extension",
+    "Multiplicar.multiply": "Multiplies two numbers.",
+    "Multiplicar.divide": "Divides two numbers.",
+    "Multiplicar.add": "Adds two numbers.",
+    "Multiplicar.subtract": "Subtracts the second number from the first.",
+    "Multiplicar.square": "Calculates the square of a number.",
+    "Multiplicar.remainder": "Calculates the remainder of a division.",
+    "Multiplicar.countTo": "Counts from 1 to the specified number."
+}

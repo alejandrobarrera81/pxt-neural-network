@@ -1,0 +1,10 @@
+{
+    "Multiplicar": "Extensión de operaciones matemáticas",
+    "Multiplicar.multiply": "Multiplica dos números.",
+    "Multiplicar.divide": "Divide dos números.",
+    "Multiplicar.add": "Suma dos números.",
+    "Multiplicar.subtract": "Resta el segundo número del primero.",
+    "Multiplicar.square": "Calcula el cuadrado de un número.",
+    "Multiplicar.remainder": "Calcula el resto de una división.",
+    "Multiplicar.countTo": "Cuenta del 1 al número especificado."
+}
