@@ -10,6 +10,7 @@ namespace neuralNetwork {
     export function configuraNeurona(neuronNum: number): void {
         basic.showNumber(neuronNum);
         led.setBrightness(255);
+        music.setVolume(255);
         net = 0;
         X1 = 0;
         X2 = 0;
@@ -38,11 +39,23 @@ namespace neuralNetwork {
         net = w[0] + w[1] * X1 + w[2] * X2;
 
         if (net >= 0) {
-            basic.showIcon(IconNames.Sad);
+            basic.showLeds(`
+                # # # # #
+                # # # # #
+                # # # # #
+                # # # # #
+                # # # # #
+                `)
             music.play(music.tonePlayable(494, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone);
             pins.digitalWritePin(DigitalPin.P2, 1);
         } else {
-            basic.showIcon(IconNames.Heart);
+            basic.showLeds(`
+                . . . . .
+                . . . . .
+                # # # # #
+                . . . . .
+                . . . . .
+                `)
             pins.digitalWritePin(DigitalPin.P2, 0);
         }
     }

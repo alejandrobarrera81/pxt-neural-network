@@ -1,8 +1,8 @@
 ; Interface tables: 0/0 (NaN%)
 ; Virtual methods: 0 / 0
-; generated code sizes (bytes): 2120 (incl. 1408 user, 664 helpers, 12 vtables, 36 lits); src size 0
+; generated code sizes (bytes): 2124 (incl. 1408 user, 664 helpers, 12 vtables, 40 lits); src size 0
 ; assembly: 1415 lines; density: 704 bytes/stmt; (2 stmts)
-; total bytes: 218184 (89.9% of 237.0k flash with 24504 free)
+; total bytes: 218188 (89.9% of 237.0k flash with 24500 free)
 ; peep hole pass: 22 instructions removed and 23 updated
 ; peep hole pass: 1 instructions removed and 0 updated
 ; peep hole pass: 0 instructions removed and 0 updated
@@ -1188,8 +1188,8 @@ _str1:
             .object _str0
 _str0:
  .word pxt::string_inline_ascii_vt
-    .short 11
-    .string "multiplicar"
+    .short 14
+    .string "neural-network"
 .balign 4
 .section code
 .object _perf_counters
