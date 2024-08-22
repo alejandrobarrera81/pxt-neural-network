@@ -1,6 +1,6 @@
 {
     "name": "neural-network",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Recreate the transmission of electrical signals between neurons using micro:bit",
     "license": "MIT",
     "dependencies": {
